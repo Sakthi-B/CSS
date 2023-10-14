@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo Class</title>
+    <style>
+        body{
+            background-image:url(bg\ pic.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            align-items: center;
+            justify-content: center;
+            display: grid;
+        }
+        h1{
+            text-align: center;
+            color:rgb(43, 255, 0);
+            font-family: 'Gill Sans';
+        }
+        img{
+            width:200px;
+            height:200px;
+            padding-top: 18%;
+        }
+      
+        .bigbox{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            column-gap: 60px;
+            row-gap: 20px;
+        }
+        .white{
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            color: black;
+            font-family: sans-serif;
+            font-size: 28pt;
+            text-align: center;
+            display: grid;
+            align-items: center;
+        
+        }
+        .white:hover{
+            background-color: rgb(239, 243, 0);
+            color: rgb(192, 34, 34);
+           
+        }
+        .blue{
+            width: 200px;
+            height: 200px;
+            background-color: dodgerblue;
+            color: black;
+            font-family: sans-serif;
+            font-size: 28pt;
+            text-align: center;
+            display: grid;
+            align-items: center;
+            
+        }
+        .blue:hover{
+            background-color:rgb(15, 187, 93);
+            color: white;
+           
+        }
+        .yellow{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 213, 0);
+            color: black;
+            font-family: sans-serif;
+            font-size: 28pt;
+            text-align: center;
+            display: grid;
+            align-items: center;
+           
+        }
+        .yellow:hover{
+            background-color: rgb(79, 8, 221);
+            color: white;
+            
+        }
+        .blank{
+            width: 200px;
+            height: 200px;
+            color: black;
+            font-family: sans-serif;
+            font-size: 28pt;
+            text-align: center;
+            display: grid;
+            align-items: center;
+          
+        }
+        .blank:hover{
+            background-color: rgb(255, 0, 64);
+            color: white;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Projects</h1>
+    <div class="bigbox">
+        <img src="robot 1.jpg" alt="Robo Iamge">
+        <p class="white">WEB<br>DESIGN</p>
+        <p class="blue">CHAT<br>BOTS</p>
+        <p class="yellow">GAME<br>DESIGN</p>
+        <p class="white">TEXT<br>ANALYSIS</p>
+        <p class="blue">JAVA<br>SCRIPT</p>
+        <p class="blank">DATA<br>PRIVACY</p>
+        <img src="robot 2.jfif" alt="Robo Iamge">
+    </div>
+</body>
+</html>
